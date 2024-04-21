@@ -1,0 +1,146 @@
+ *{
+    padding:0;
+    margin:0;
+ }
+ body{
+display: flex;
+    background-color: black;
+    justify-content: start;
+    margin: 0;
+}
+
+.menu{
+    color: antiquewhite;
+    background-color: #123;
+    height: 100vh;
+    width:60px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    flex-grow: 1;
+}
+ul{
+    list-style: none;
+    text-transform: capitalize;
+    margin-right: 40px;
+
+}
+ul li a{
+    display: block;
+text-decoration: none;
+color: aliceblue;
+padding: 10px;
+margin:10px;
+font-size: 25px;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 40px;
+transition: 3s;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    width: 260px;
+}
+ul li a:hover,.box:hover{
+background-color: #ffffff55;
+width: 100%;
+transition: 2s;
+}
+td:hover,tr:hover{
+    background-color: #ffffff55;
+transition: 2s;
+}
+.img{
+    width:50px;
+    height:50px;
+    display: flex;
+    border-radius: 50%;
+   overflow: hidden ;
+   border: solid 3px;
+   flex-shrink: 0;
+}
+.img img{
+    width:100%
+}
+.profile{
+    display: flex;
+    gap:10px
+}
+.menu:hover{
+    width:260px;
+    transition: 2s;
+    
+}
+.content{
+    width: 100%;
+    font-family: sans-serif;
+
+
+}
+.dashboard{
+    background-color: #0481ff;
+    color: aliceblue;
+padding: 10px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.box{
+    display: flex;
+    color: aliceblue;
+    background-color: #123;
+    flex-basis: 150px;
+    flex-grow: 1;
+    height: 100px;
+    border-radius: 8px;
+align-items: center;
+ justify-content: space-around;
+}
+.square{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    gap: 20px;
+
+
+}
+.box i{
+    font-size: 40px;
+}
+.lists{
+    color: azure;
+}
+.webtable{
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+}
+ th{
+    background-color: #0481ff;
+height: 40px;
+border-radius: 8px;
+}
+td{
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+}
+.products{
+    background-color: #0481ff;
+    color: aliceblue;
+padding: 10px;
+border-radius: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}   
+
+
+
+
